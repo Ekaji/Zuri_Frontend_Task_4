@@ -1,8 +1,8 @@
 
 const checkYuGiOh = (n) => {
   const input = Number(n);
-  if ( Number.isNaN( input ) === true || Array.isArray(n) === true || n.constructor === String ) {
-    return console.log( `invalid parameter: ${JSON.stringify(n)}` );
+  if ( Number.isNaN( input ) === true || Array.isArray(n) === true || n.constructor === String || typeof(n) === 'boolean' ) {
+    return typeof(n) === 'boolean' ? console.log( `invalid parameter: 'boolean'` ) : console.log( `invalid parameter: ${JSON.stringify(n)}` );
   }
   const numbers = [];
   for ( i = 1; i <= input; i++ ) {
@@ -17,4 +17,4 @@ const checkYuGiOh = (n) => {
   console.log( numbers );
 }
 
-checkYuGiOh(50);
+checkYuGiOh(true);
