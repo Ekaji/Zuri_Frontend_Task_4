@@ -28,3 +28,12 @@ Use the following cases as guides:
 - checkYuGiOh(10) should return [1, "yu", "gi", "yu", "oh", "yu-gi", 7, "yu", "gi", "yu-oh"]
 - checkYuGiOh("5") should return [1, "yu", "gi", "yu", "oh"]
 - checkYuGiOh("fizzbuzz is meh") should return `invalid parameter: "fizzbuzz is meh"`
+
+step to return
+- both functions can be run using nodejs from the terminal
+- - git clone the
+- - cd into it
+- - start up terminal make sure it open in the folder where the scripts are
+- - open any of the files and pass a value to the function eg checkYuGiOh(50)
+- - then run the the script using Nodejs e.g node checkYuGiOh.js
+- - you should get a response or an error response with details

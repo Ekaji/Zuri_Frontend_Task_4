@@ -17,4 +17,4 @@ const checkYuGiOh = (n) => {
   console.log( numbers );
 }
 
-checkYuGiOh();
+checkYuGiOh(50);
